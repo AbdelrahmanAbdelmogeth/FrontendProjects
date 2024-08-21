@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BackRoads || Tour Company</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.9.0-web/css/all.min.css"
+    />
+
+    <!-- fonts are in styles.css -->
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+ 	<script src="./app.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="home" class="header">
+      <!-- nav -->
+
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img
+              src="./images/logo.svg"
+              class="nav-logo"
+              alt="backroads company"
+            />
+            <button
+              type="button"
+              class="nav-toggle"
+              id="nav-toggle"
+              aria-label="nav toggler"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- end of navbar header -->
+          <!-- navbar links -->
+          <div class="nav-links " id="nav-links">
+            <a href="#home" class="nav-link scroll-link">home</a>
+            <a href="#about" class="nav-link scroll-link">about</a>
+            <a href="#services" class="nav-link scroll-link">services</a>
+            <a href="#featured" class="nav-link scroll-link">featured</a>
+            <a href="#gallery" class="nav-link scroll-link">gallery</a>
+          </div>
+          <!-- end of navbar links -->
+          <!-- nav social media icons -->
+          <div class="nav-icons">
+            <a href="https://www.twitter.com" target="_blank" class="nav-icon">
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank" class="nav-icon">
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank" class="nav-icon">
+              <i class="fab fa-squarespace"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+      <!-- hero -->
+      <div class="hero">
+        <div class="hero_banner">
+          <h1 class="banner_title">continue exploring</h1>
+          <p class="banner_parag">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+            doloremque laboriosam at?
+          </p>
+          <a href="#featured" class="scroll-link banner_btn btn_white">explore tours</a>
+        </div>
+      </div>
+      <!-- end of hero -->
+    </header>
+    <!-- end of header -->
+
+    <!-- about section -->
+    <section id="about" class="about">
+      <div class="section_container">
+        <h2 class="section_title">
+          about <span class="section_subtitle">us</span>
+        </h2>
+        <div class="about_flex">
+          <div class="about_img_container">
+            <img src="./images/about.jpeg" alt="beach_view" class="about_img" />
+          </div>
+          <div class="about_article">
+            <h3 class="article_header">explore the difference</h3>
+            <p class="article_pargraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              dicta voluptatum, esse aperiam eligendi expedita.
+            </p>
+            <p class="article_pargraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              dicta voluptatum, esse aperiam eligendi expedita.
+            </p>
+            <a href="#featured" class="about_btn btn_blue">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- services section -->
+    <section id="services" class="services">
+      <div class="section_container">
+        <h2 class="section_title">
+          our <span class="section_subtitle">services</span>
+        </h2>
+        <div class="services_flex">
+          <div class="box">
+            <span class="icon_container">
+              <i class="fas fa-wallet"></i>
+            </span>
+            <h4 class="box_title">saving money</h4>
+            <p class="box_paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit,
+              odit.
+            </p>
+          </div>
+          <div class="box">
+            <span class="icon_container">
+              <i class="fas fa fa-tree"></i>
+            </span>
+            <h4 class="box_title">endless hiking</h4>
+            <p class="box_paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit,
+              odit.
+            </p>
+          </div>
+          <div class="box">
+            <span class="icon_container">
+              <i class="fas fa-socks"></i>
+            </span>
+            <h4 class="box_title">amazing comfort</h4>
+            <p class="box_paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit,
+              odit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- features -->
+    <section id="featured" class="features">
+      <div class="section_container">
+        <h2 class="section_title">
+          featured <span class="section_subtitle">tours</span>
+        </h2>
+        <div class="feature_flex">
+          <article class="tour_card">
+            <div class="tour_img_container">
+              <img
+                class="tour_img"
+                src="./images/tour-1.jpeg"
+                alt="awesome tour"
+              />
+              <p class="tour_date">august 14th,2022</p>
+            </div>
+            <div class="card_footer">
+              <div class="card_title">
+                <h4>tibet adventure</h4>
+              </div>
+              <div class="tour_info">
+                <div>
+                  <p class="tour_paragraph tour_country">
+                    <span>
+                      <i class="fas fa-map"></i>
+                    </span>
+                    china
+                  </p>
+                </div>
+                <div class="tour_detail">
+                  <p class="tour_paragraph">22 days</p>
+                  <p class="tour_paragraph">from EG 10000</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="tour_card">
+            <div class="tour_img_container">
+              <img
+                class="tour_img"
+                src="./images/tour-2.jpeg"
+                alt="awesome tour"
+              />
+              <p class="tour_date">october 1th,2022</p>
+            </div>
+            <div class="card_footer">
+              <div class="card_title">
+                <h4>best of java</h4>
+              </div>
+              <div class="tour_info">
+                <div>
+                  <p class="tour_paragraph tour_country">
+                    <span>
+                      <i class="fas fa-map"></i>
+                    </span>
+                    indonesia
+                  </p>
+                </div>
+                <div class="tour_detail">
+                  <p class="tour_paragraph">10 days</p>
+                  <p class="tour_paragraph">from EG 20000</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="tour_card">
+            <div class="tour_img_container">
+              <img
+                class="tour_img"
+                src="./images/tour-3.jpeg"
+                alt="awesome tour"
+              />
+              <p class="tour_date">september 26th,2022</p>
+            </div>
+            <div class="card_footer">
+              <div class="card_title">
+                <h4>explore hong kong</h4>
+              </div>
+              <div class="tour_info">
+                <div>
+                  <p class="tour_paragraph tour_country">
+                    <span>
+                      <i class="fas fa-map"></i>
+                    </span>
+                    hong kong
+                  </p>
+                </div>
+                <div class="tour_detail">
+                  <p class="tour_paragraph">12 days</p>
+                  <p class="tour_paragraph">from EG 30000</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="tour_card">
+            <div class="tour_img_container">
+              <img
+                class="tour_img"
+                src="./images/tour-4.jpeg"
+                alt="awesome tour"
+              />
+              <p class="tour_date">decemper 5th,2022</p>
+            </div>
+            <div class="card_footer">
+              <div class="card_title">
+                <h4>kenya highlights</h4>
+              </div>
+              <div class="tour_info">
+                <div>
+                  <p class="tour_paragraph tour_country">
+                    <span>
+                      <i class="fas fa-map"></i>
+                    </span>
+                    keyna
+                  </p>
+                </div>
+                <div class="tour_detail">
+                  <p class="tour_paragraph">22 days</p>
+                  <p class="tour_paragraph">from EG 60000</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="feature_btn">
+          <a href="#featured" class="btn_blue">all tours</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of features -->
+
+    <!-- gallery section -->
+    <section id="gallery" class="gallery">
+      <div class="gallery_container section_container">
+        <h2 class="section_title">
+          our <span class="section_subtitle">gallery</span>
+        </h2>
+        <div class="gallery_flex">
+          <div class="gallery_img_container">
+            <span class="gallery_icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <img
+              class="gallery_img"
+              src="./images/tour-1.jpeg"
+              alt="awesome image"
+            />
+          </div>
+          <div class="gallery_img_container">
+            <span class="gallery_icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <img
+              class="gallery_img"
+              src="./images/tour-2.jpeg"
+              alt="awesome image"
+            />
+          </div>
+          <div class="gallery_img_container">
+            <span class="gallery_icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <img
+              class="gallery_img"
+              src="./images/tour-3.jpeg"
+              alt="awesome image"
+            />
+          </div>
+          <div class="gallery_img_container">
+            <span class="gallery_icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <img
+              class="gallery_img"
+              src="./images/tour-4.jpeg"
+              alt="awesome image"
+            />
+          </div>
+          <div class="gallery_img_container">
+            <span class="gallery_icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <img
+              class="gallery_img"
+              src="./images/tour-5.jpeg"
+              alt="awesome image"
+            />
+          </div>
+          <div class="gallery_img_container">
+            <span class="gallery_icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <img
+              class="gallery_img"
+              src="./images/tour-6.jpeg"
+              alt="awesome image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end gallery section -->
+    <!-- hot deals -->
+    <section class="hot_deals">
+      <div class="section_container">
+        <h2 class="section_title">
+          hot <span class="section_subtitle">deals</span>
+        </h2>
+        <form class="" action="">
+          <div class="form_flex">
+            <input class="email_form" type="email" placeholder="your email" />
+            <input class="submit_btn" type="submit" value="submit">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- end hot deals -->
+    <!-- footer -->
+    <section class="footer">
+      <div class="section_container">
+        <div class="footer_flex">
+          <a class="footer_link scroll-link" href="#home">home</a>
+          <a class="footer_link scroll-link" href="#about">about</a>
+          <a class="footer_link scroll-link" href="#services">services</a>
+          <a class="footer_link scroll-link featured_link_footer" href="#featured">featured</a>
+          <a class="footer_link scroll-link gallery_link_footer" href="#gallery">galley</a>
+        </div>
+        <div class="footer_icons">
+        <a href="https://www.twitter.com" target="_blank" class="footer_icon">
+          <i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank" class="footer_icon">
+          <i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank" class="footer_icon">
+          <i class="fab fa-squarespace"></i
+        ></a>
+      </div>
+      <!-- copyright -->
+      <p class="copyright">
+        copyright &copy; backroads travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+      </div>
+    </section>
+    <!-- end footer -->
+    <!-- javascript -->
+	<!--  <script src="./app.js"></script> -->
+   
+  </body>
+</html>
