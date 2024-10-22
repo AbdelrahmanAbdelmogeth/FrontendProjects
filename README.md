@@ -4,8 +4,8 @@ This repository contains a collection of frontend projects I have developed. Eac
 
 | Name                | Description                                              | Host            | Link                                    |
 |---------------------|----------------------------------------------------------|-----------------|-----------------------------------------|
-| **Backroads**   | Landing Page for Travelling Agency.                        | Hosting platform | [Live Demo](https://back-roads454.netlify.app/)        |
-| **Project Name 2**   | Another brief project description.                       | Hosting platform | [Live Demo](https://example.com)        |
+| **Backroads**   | Landing Page for Travelling Agency.                        | Netlify | [Live Demo](https://back-roads454.netlify.app/)        |
+| **Construction Services**   | Landing Page for Construction Company.                       | Netlify | [Live Demo](https://construction-445-services.netlify.app/)        |
 | **Project Name 3**   | Brief description of a different project.                | Hosting platform | [Live Demo](https://example.com)        |
 
 ## How to Run
