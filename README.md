@@ -6,7 +6,11 @@ This repository contains a collection of frontend projects I have developed. Eac
 |---------------------|----------------------------------------------------------|-----------------|-----------------------------------------|
 | **Backroads**   | Landing Page for Travelling Agency.                        | Netlify | [Live Demo](https://back-roads454.netlify.app/)        |
 | **Construction Services**   | Landing Page for Construction Company.                       | Netlify | [Live Demo](https://construction-445-services.netlify.app/)        |
-| **Project Name 3**   | Brief description of a different project.                | Hosting platform | [Live Demo](https://example.com)        |
+| *Car Rental**   | Landing Page for car rental company.                | Netlify | [Live Demo](https://car455-rentals.netlify.app)        |
+| *Buy Accessories**   | Landing Page for E-Commerce Website.                | Netlify | [Live Demo](https://beamish-squirrel-99b61f.netlify.app/)        |
+| *Tea Station**   | Landing Page for Tea Selling Company.                | Netlify | [Live Demo](https://tea-225-station.netlify.app/)        |
+| *Tradex**   | Clone of Tradex Website.                | Netlify | [Live Demo](https://tradex-bootstrap.netlify.app)        |
+| *WoW and Animate**   | Simple Animation With WoW and Animate.                | Netlify | [Live Demo](https://wow-and-animate.netlify.app)        |
 
 ## How to Run
 
